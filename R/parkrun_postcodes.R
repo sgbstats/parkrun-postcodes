@@ -69,5 +69,15 @@ parkrunsuk_postcodes=cbind.data.frame(parkrunsuk, postcode) %>%
   arrange(short)
 write.csv(parkrunsuk_postcodes, "Data/uk_parkruns_postcodes.csv", row.names = F)
 
+###
 
-
+parkrunscd=cbind.data.frame(short,long,countrycode, coords) %>% 
+  rename("lat"="2",
+         "lon"="1") %>% 
+  filter(countrycode==97,
+         !grepl("junior",long),
+         short %in% c("Cape Pembroke Lighthouse", "Jersey", "Guernsey", "Douglas", "Nobles")) %>% 
+  arrange(short) %>% 
+  cbind.data.frame("postcode"=c("FIQQ 1ZZ", "JE3 8LZ", "GY3 5BY","IM2 4BD"), "area"=c(NA_character_, "JE", "GY", "IM"), "areaname"=c("Falkland Islands", "Jersey", "Guernsey", "Isle of Man" )) %>% 
+  dplyr::select(short, long, postcode, area, areaname,  lat,lon)
+write.csv(parkrunscd, "Data/cd_ot_parkruns_postcodes.csv", row.names = F)
