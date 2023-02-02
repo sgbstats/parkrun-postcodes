@@ -65,7 +65,8 @@ parkrunsuk_postcodes=cbind.data.frame(parkrunsuk, postcode) %>%
          sector=substr(postcode, 1,gregexpr(" ", postcode)[[1]][1]-1),) %>% 
   ungroup() %>% 
   merge(areaslist, by="area") %>% 
-  dplyr::select(short, long, postcode, area, areaname, sector, lat,lon)
+  dplyr::select(short, long, postcode, area, areaname, sector, lat,lon) %>% 
+  arrange(short)
 write.csv(parkrunsuk_postcodes, "Data/uk_parkruns_postcodes.csv", row.names = F)
 
 
