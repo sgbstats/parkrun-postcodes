@@ -81,3 +81,23 @@ parkrunscd=cbind.data.frame(short,long,countrycode, coords) %>%
   cbind.data.frame("postcode"=c("FIQQ 1ZZ", "JE3 8LZ", "GY3 5BY","IM2 4BD"), "area"=c(NA_character_, "JE", "GY", "IM"), "areaname"=c("Falkland Islands", "Jersey", "Guernsey", "Isle of Man" )) %>% 
   dplyr::select(short, long, postcode, area, areaname,  lat,lon)
 write.csv(parkrunscd, "Data/cd_ot_parkruns_postcodes.csv", row.names = F)
+
+closed=readxl::read_excel("Data/procured/closed-backfill.xlsx")
+
+closedlatlong=closed %>% filter(is.na(postcode)) %>% 
+  group_by(short) %>% 
+  mutate(postcode=postcode_finder(lat=lat, lon=lon)) %>% 
+  ungroup()
+
+parkruns_closed_postcodes=closedlatlong %>% 
+  rbind.data.frame(closed%>% filter(!is.na(postcode))) %>% 
+  group_by(short) %>% 
+  mutate(area = substr(postcode, 1,gregexpr("[0-9]", postcode)[[1]][1]-1),
+         sector=substr(postcode, 1,gregexpr(" ", postcode)[[1]][1]-1),) %>% 
+  ungroup() %>% 
+  select(-areaname) %>% 
+  merge(areaslist, by="area") %>% 
+  dplyr::select(short, long, postcode, area, areaname, sector, lat,lon) %>% 
+  arrange(short)
+
+write.csv(parkruns_closed_postcodes, "Data/uk_closed_parkruns_postcodes.csv", row.names = F)
