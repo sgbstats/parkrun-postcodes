@@ -17,7 +17,7 @@ long=character(nevents)
 countrycode=numeric(nevents)
 coords=matrix(0,ncol=2, nrow=nevents)
 
-for(i in 1:2303)
+for(i in 1:nevents)
 {
   short[i]=parkrunsall$events$features[[i]]$properties$EventShortName
   long[i]=parkrunsall$events$features[[i]]$properties$EventLongName
