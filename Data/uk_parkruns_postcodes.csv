@@ -3,6 +3,7 @@
 "Aberbeeg","Aberbeeg parkrun","NP13 2AH","NP","Newport","NP13",51.711165,-3.144286
 "Aberdare","Aberdare parkrun","CF44 8LU","CF","Cardiff","CF44",51.718796,-3.460089
 "Aberdeen","Aberdeen parkrun","AB23 8DT","AB","Aberdeen","AB23",57.173898,-2.086256
+"Aberfields","Aberfields parkrun","CF32 7SL","CF","Cardiff","CF32",51.614631,-3.538198
 "Aberystwyth","Aberystwyth parkrun","SY23 1PT","SY","Shrewsbury","SY23",52.414546,-4.080401
 "Abingdon","Abingdon parkrun","OX14 3HY","OX","Oxford","OX14",51.667957,-1.277429
 "Agnew","Agnew parkrun","DG9 0EB","DG","Dumfries","DG9",54.908188,-5.0349
@@ -24,6 +25,7 @@
 "Arrow Valley","Arrow Valley parkrun","B98 0DD","B","Birmingham","B98",52.29362,-1.906573
 "Ashbourne Recreation Ground","Ashbourne Recreation Ground parkrun","DE6 1EJ","DE","Derby","DE6",53.018719,-1.727477
 "Ashford","Ashford parkrun","TN23 4QA","TN","Tunbridge Wells","TN23",51.14347,0.864218
+"Ashington Community Woodland","Ashington Community Woodland parkrun","NE63 9JZ","NE","Newcastle upon Tyne","NE63",55.190433,-1.572397
 "Ashton Court","Ashton Court parkrun","BS41 9JN","BS","Bristol","BS41",51.443592,-2.639948
 "Auldcathie District","Auldcathie District parkrun","EH52 6FG","EH","Edinburgh","EH52",55.963327,-3.477658
 "Aviemore","Aviemore parkrun","PH22 1UH","PH","Perth","PH22",57.205275,-3.818635
@@ -150,6 +152,7 @@
 "Clair","Clair parkrun","RH16 3BU","RH","Redhill","RH16",51.004322,-0.100143
 "Clapham Common","Clapham Common parkrun","SW4 9AP","SW","South West London","SW4",51.455873,-0.151331
 "Clare Castle","Clare Castle parkrun","CO10 8NW","CO","Colchester","CO10",52.076428,0.581882
+"Clarence","Clarence parkrun","BL9 5DH","BL","Bolton","BL9",53.604665,-2.289921
 "Cleethorpes","Cleethorpes parkrun","DN35 0PD","DN","Doncaster","DN35",53.541552,-0.025384
 "Clevedon Salthouse Fields","Clevedon Salthouse Fields parkrun","BS21 7TU","BS","Bristol","BS21",51.434573,-2.866505
 "Cliffe Castle","Cliffe Castle parkrun","BD20 6LQ","BD","Bradford","BD20",53.874658,-1.913364
@@ -204,6 +207,7 @@
 "Dishley, Loughborough","Dishley parkrun, Loughborough","LE11 5TF","LE","Leicester","LE11",52.787485,-1.234785
 "Doddington Hall","Doddington Hall parkrun","LN6 4RX","LN","Lincoln","LN6",53.222149,-0.650558
 "Dolgellau","Dolgellau parkrun","LL40 1DL","LL","Llandudno","LL40",52.744574,-3.886527
+"Dover Waterfront","Dover Waterfront parkrun","CT17 9FS","CT","Canterbury","CT17",51.119994,1.313027
 "Downham Market Academy","Downham Market Academy parkrun","PE38 9LL","PE","Peterborough","PE38",52.6034,0.389471
 "Drumchapel","Drumchapel parkrun","G15 7NH","G","Glasgow","G15",55.91688,-4.350674
 "Drumpellier Country","Drumpellier Country parkrun","ML5 2EH","ML","Motherwell","ML5",55.871588,-4.065615
@@ -234,6 +238,7 @@
 "Ellon","Ellon parkrun","AB41 8LF","AB","Aberdeen","AB41",57.359262,-2.056968
 "Endcliffe","Endcliffe parkrun","S10 3FQ","S","Sheffield","S10",53.368631,-1.507364
 "Enniskillen","Enniskillen parkrun","BT74 7HJ","BT","Belfast","BT74",54.343834,-7.642293
+"Epworth Equestrian","Epworth Equestrian parkrun","DN9 1LQ","DN","Doncaster","DN9",53.539368,-0.87384
 "Erddig","Erddig parkrun","LL13 0YT","LL","Llandudno","LL13",53.027137,-3.006833
 "Erskine Waterfront","Erskine Waterfront parkrun","PA8 7BF","PA","Paisley","PA8",55.907749,-4.447774
 "Evesham","Evesham parkrun","WR11 2FW","WR","Worcester","WR11",52.090191,-1.958122
@@ -247,6 +252,7 @@
 "Fell Foot","Fell Foot parkrun, Newby Bridge","LA12 8NN","LA","Lancaster","LA12",54.274736,-2.952259
 "Ferry Meadows","Ferry Meadows parkrun","PE2 5UU","PE","Peterborough","PE2",52.565563,-0.308132
 "Finsbury Park","Finsbury parkrun","N4 3EU","N","North London","N4",51.569595,-0.104145
+"Five Arches","Five Arches parkrun","BA3 3RL","BA","Bath","BA3",51.292354,-2.452787
 "Flatts Lane","Flatts Lane parkrun","TS6 0NN","TS","Teesside","TS6",54.543872,-1.151741
 "Fleetwood Promenade","Fleetwood Promenade parkrun","FY7 6HE","FY","Blackpool","FY7",53.927366,-3.016919
 "Flegg High","Flegg High parkrun","NR29 4QE","NR","Norwich","NR29",52.713022,1.640492
@@ -328,7 +334,6 @@
 "Henley Wood, Oswestry","Henley Wood parkrun, Oswestry","SY11 2YG","SY","Shrewsbury","SY11",52.862542,-3.030368
 "Henley-on-Thames","Henley-on-Thames parkrun","RG9 1RL","RG","Reading","RG9",51.531978,-0.919288
 "Henlow Bridge Lakes","Henlow Bridge Lakes parkrun","SG16 6LN","SG","Stevenage","SG16",52.030537,-0.268787
-"Henstridge Airfield","Henstridge Airfield parkrun","BA8 0TN","BA","Bath","BA8",50.985278,-2.352992
 "Hereford","Hereford parkrun","HR4 9RT","HR","Hereford","HR4",52.068892,-2.724152
 "Herrington Country","Herrington Country parkrun","DH4 7NJ","DH","Durham","DH4",54.876573,-1.476809
 "Heslington","Heslington parkrun","YO10 5FG","YO","York","YO10",53.949319,-1.01799
@@ -341,6 +346,7 @@
 "Hoblingwell","Hoblingwell parkrun","BR5 2QE","BR","Bromley","BR5",51.400981,0.098847
 "Hockley Woods","Hockley Woods parkrun","SS5 4QA","SS","Southend-on-Sea","SS5",51.596133,0.64912
 "Hogmoor Inclosure","Hogmoor Inclosure parkrun","GU35 9FX","GU","Guildford","GU35",51.111681,-0.875934
+"Holbrooks","Holbrooks parkrun","CV6 4BY","CV","Coventry","CV6",52.439154,-1.509052
 "Holkham","Holkham parkrun","NR23 1AB","NR","Norwich","NR23",52.950159,0.801022
 "Holy Cross College","Holy Cross College parkrun","BT82 9LG","BT","Belfast","BT82",54.815718,-7.477408
 "Holyrood","Holyrood parkrun","EH8 8JA","EH","Edinburgh","EH8",55.952167,-3.162844
@@ -471,6 +477,7 @@
 "Mote Park","Mote Park parkrun","ME14 5PP","ME","Medway","ME14",51.269539,0.541967
 "Mount Edgcumbe","Mount Edgcumbe parkrun","PL10 1HT","PL","Plymouth","PL10",50.357664,-4.175493
 "Mount Stuart","Mount Stuart parkrun","PA20 9LR","PA","Paisley","PA20",55.792888,-5.019453
+"Muncaster Castle","Muncaster Castle parkrun","CA18 1RD","CA","Carlisle","CA18",54.357004,-3.388267
 "Myrtle","Myrtle parkrun","BD16 2LP","BD","Bradford","BD16",53.846344,-1.838295
 "Nant y Pandy","Nant y Pandy parkrun","LL77 7EA","LL","Llandudno","LL77",53.257642,-4.313233
 "Netley Abbey","Netley Abbey parkrun","SO31 4TS","SO","Southampton","SO31",50.865345,-1.334453
@@ -495,7 +502,6 @@
 "Nova Prestatyn","Nova Prestatyn parkrun","LL19 7EY","LL","Llandudno","LL19",53.342126,-3.414183
 "Oak Hill","Oak Hill parkrun","EN4 8XD","EN","Enfield","EN4",51.637718,-0.153744
 "Oaklands","Oaklands parkrun","B25 8FD","B","Birmingham","B25",52.466391,-1.818013
-"Oakwell Hall","Oakwell Hall parkrun","WF17 9LG","WF","Wakefield","WF17",53.739437,-1.671596
 "Old Deer Park","Old Deer Park parkrun","TW10 5EZ","TW","Twickenham","TW10",51.464417,-0.306973
 "Old Railway Trail, Llangollen","Old Railway Trail parkrun, Llangollen","LL20 8LD","LL","Llandudno","LL20",52.97016,-3.160221
 "Oldham","Oldham parkrun","OL8 2AU","OL","Oldham","OL8",53.534187,-2.104118
@@ -551,6 +557,7 @@
 "Prospect","Prospect parkrun","RG30 2ND","RG","Reading","RG30",51.448386,-1.00741
 "Prudhoe Riverside","Prudhoe Riverside parkrun","NE42 6AD","NE","Newcastle upon Tyne","NE42",54.968071,-1.863141
 "Pymmes","Pymmes parkrun","N9 9SU","N","North London","N9",51.61887,-0.066953
+"Quakers Walk","Quakers Walk parkrun","SN10 2DJ","SN","Swindon","SN10",51.355501,-1.99217
 "Queens, Belfast","Queens parkrun, Belfast","BT9 5NB","BT","Belfast","BT9",54.555092,-5.963387
 "Queens, Glasgow","Queens parkrun, Glasgow","G42 8QR","G","Glasgow","G42",55.833509,-4.270076
 "Queen Elizabeth","Queen Elizabeth parkrun","PO8 0QE","PO","Portsmouth","PO8",50.956372,-0.978384
@@ -598,6 +605,7 @@
 "Seaton","Seaton parkrun","EX12 2QW","EX","Exeter","EX12",50.703349,-3.072064
 "Sedgefield","Sedgefield parkrun","TS21 2DN","TS","Teesside","TS21",54.653008,-1.466289
 "Selby","Selby parkrun","YO8 8LD","YO","York","YO8",53.751824,-1.078398
+"Sence Valley Forest Park","Sence Valley Forest Park parkrun","LE67 6AQ","LE","Leicester","LE67",52.696067,-1.408816
 "Seven Fields","Seven Fields parkrun","SN25 3AH","SN","Swindon","SN25",51.586619,-1.781711
 "Severn Bridge","Severn Bridge parkrun","NP16 5GF","NP","Newport","NP16",51.619014,-2.664531
 "Severn Valley Country","Severn Valley Country parkrun","WV15 6HG","WV","Wolverhampton","WV15",52.453316,-2.364842
@@ -612,6 +620,7 @@
 "Shorne Woods","Shorne Woods parkrun","DA12 3HX","DA","Dartford","DA12",51.404426,0.418618
 "Shrewsbury","Shrewsbury parkrun","SY1 1JX","SY","Shrewsbury","SY1",52.706942,-2.75921
 "Silksworth","Silksworth parkrun","SR3 1PD","SR","Sunderland","SR3",54.883911,-1.409099
+"Silloth Promenade","Silloth Promenade parkrun","CA7 4DU","CA","Carlisle","CA7",54.873987,-3.387605
 "Sittingbourne","Sittingbourne parkrun","ME10 2EY","ME","Medway","ME10",51.354976,0.740569
 "Sixfields Upton","Sixfields Upton parkrun","NN5 4EQ","NN","Northampton","NN5",52.228528,-0.942236
 "Sixmilewater","Sixmilewater parkrun","BT39 9DP","BT","Belfast","BT39",54.750004,-5.998945
@@ -663,6 +672,7 @@
 "Tamar Lakes","Tamar Lakes parkrun","EX22 7RW","EX","Exeter","EX22",50.879837,-4.433418
 "Tamar Trails","Tamar Trails parkrun","PL19 8JE","PL","Plymouth","PL19",50.535163,-4.201763
 "Tawd Valley","Tawd Valley parkrun","WN8 6LT","WN","Wigan","WN8",53.550281,-2.775829
+"Teifi Marshes Nature Reserve","Teifi Marshes Nature Reserve parkrun","SA43 2TB","SA","Swansea","SA43",52.073638,-4.648047
 "Teignmouth Promenade","Teignmouth Promenade parkrun","TQ14 8BB","TQ","Torquay","TQ14",50.544428,-3.494987
 "Telford","Telford parkrun","TF3 4EP","TF","Telford","TF3",52.67123,-2.447934
 "Temple Newsam","Temple Newsam parkrun","LS15 0BG","LS","Leeds","LS15",53.784781,-1.456461
@@ -679,6 +689,7 @@
 "Thomas Mills","Thomas Mills parkrun","IP13 9RE","IP","Ipswich","IP13",52.228375,1.325981
 "Thornbury","Thornbury parkrun","BS35 1NA","BS","Bristol","BS35",51.606368,-2.530114
 "Thornham Walks","Thornham Walks parkrun","IP23 8HH","IP","Ipswich","IP23",52.304311,1.077504
+"Thorp Perrow","Thorp Perrow parkrun","DL8 2PS","DL","Darlington","DL8",54.261285,-1.6042
 "Thurrock","Thurrock parkrun, Orsett Heath","RM16 3AA","RM","Romford","RM16",51.491427,0.363436
 "Thurso","Thurso parkrun","KW14 8PS","KW","Kirkwall","KW14",58.589573,-3.521554
 "Tidworth","Tidworth parkrun","SP9 7BT","SP","Salisbury","SP9",51.224947,-1.667571
@@ -728,6 +739,7 @@
 "Weymouth","Weymouth parkrun","DT4 7SX","DT","Dorchester","DT4",50.625242,-2.447795
 "Whinlatter Forest","Whinlatter Forest parkrun","CA12 5TW","CA","Carlisle","CA12",54.610017,-3.22446
 "Whitehaven","Whitehaven parkrun","CA28 8EG","CA","Carlisle","CA28",54.524733,-3.573636
+"Whitekirk Hill","Whitekirk Hill parkrun","EH39 5PR","EH","Edinburgh","EH39",56.033364,-2.644542
 "Whiteley","Whiteley parkrun","PO15 7HD","PO","Portsmouth","PO15",50.884669,-1.250819
 "Whitley Bay","Whitley Bay parkrun","NE26 1PS","NE","Newcastle upon Tyne","NE26",55.048875,-1.448736
 "Whitstable","Whitstable parkrun","CT5 2DN","CT","Canterbury","CT5",51.365295,1.041942
@@ -738,6 +750,7 @@
 "Wimpole Estate","Wimpole Estate parkrun","SG8 0BW","SG","Stevenage","SG8",52.140442,-0.047207
 "Winchester","Winchester parkrun","SO23 7EG","SO","Southampton","SO23",51.069286,-1.310849
 "Windy Nook","Windy Nook parkrun","NE10 9AU","NE","Newcastle upon Tyne","NE10",54.940189,-1.563025
+"Wisbech","Wisbech parkrun","PE13 3DN","PE","Peterborough","PE13",52.666891,0.166294
 "Witney","Witney parkrun","OX29 0NB","OX","Oxford","OX29",51.789974,-1.513356
 "Witton","Witton parkrun","BB2 2TP","BB","Blackburn","BB2",53.74055,-2.517211
 "Woking","Woking parkrun","GU22 7LY","GU","Guildford","GU22",51.311708,-0.556204
