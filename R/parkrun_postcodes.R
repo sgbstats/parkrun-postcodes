@@ -6,7 +6,7 @@ library(tictoc)
 `%notin%`=Negate(`%in%`)
 
 tictoc::tic()
-parkrunsall=fromJSON("https://images.parkrun.com/events.json?fbclid=IwAR0PP6LCoKah55PCl2sr1JLcHlEPCPdbWLYL2KXpq6V2Kk9aOO67IadRLkE")
+parkrunsall=fromJSON("https://images.parkrun.com/events.json")
 
 nevents=length(parkrunsall$events$features)
 
