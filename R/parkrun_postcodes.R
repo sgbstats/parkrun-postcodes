@@ -99,4 +99,5 @@ parkruns_closed_postcodes=closedlatlong %>%
   arrange(short)
 
 write.csv(parkruns_closed_postcodes, "Data/uk_closed_parkruns_postcodes.csv", row.names = F)
+save(parkrunsuk_postcodes, parkruns_closed_postcodes, file="Data/postcodes.RDa")
 tictoc::toc()
