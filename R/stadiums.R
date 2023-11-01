@@ -17,6 +17,6 @@ stadium_parkruns=s3%>%
   select(Team, Name, short) %>% 
   ungroup()
 
-write.csv(stadium_parkruns, "Data/stadium_pakruns.csv")
+write.csv(stadium_parkruns, "Data/stadium_pakruns.csv", row.names = F)
   
   
