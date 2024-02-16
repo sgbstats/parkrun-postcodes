@@ -4,6 +4,7 @@ library(RCurl)
 library(RJSONIO)
 library(tictoc)
 `%notin%`=Negate(`%in%`)
+library(googlesheets4)
 gs4_auth(
   cache = ".secrets",
   email = "sebastiangbate@gmail.com",
