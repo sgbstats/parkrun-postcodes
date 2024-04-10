@@ -27,6 +27,12 @@ parkruns5k=cbind.data.frame(short,long,countrycode, coords) %>%
   arrange(short) %>% 
   mutate(foo=1) 
 
+startdates=read.csv("Data/jpstartdates.csv") %>% janitor::clean_names()  %>%
+  mutate(first_run=as.Date(first_run, format="%d/%m/%Y"),
+         jpage=as.numeric(difftime(as.Date("2024-04-10"),first_run, units="days"))/365.25)%>% 
+  select(event, jpage)
+
+
 parkruns2k=cbind.data.frame(short,long,countrycode, coords) %>% 
   rename("lat"="2",
          "lon"="1") %>% 
@@ -36,7 +42,8 @@ parkruns2k=cbind.data.frame(short,long,countrycode, coords) %>%
          short %notin% c("Cape Pembroke Lighthouse", "Jersey", "Guernsey", "Douglas", "Nobles")) %>% 
   arrange(short)%>% 
   mutate(foo=1) %>% 
-  select(-countrycode)
+  select(-countrycode) %>% 
+  merge(startdates, by.x="long", by.y="event", all.x=T)
 
 parkruns=merge(parkruns5k %>% dplyr::select(-long) ,
                parkruns2k%>% dplyr::select(-long) %>% rename("shortjunior"="short"), by="foo") %>% 
@@ -55,6 +62,9 @@ write.csv(parkruns, "Data/jp-pr-distance.csv")
 
 parkruns %>% mutate(out=match=="Perfect") %>% glm(out~dist, data=.) %>% summary()
 parkruns %>% mutate(out=match!="Different") %>% glm(out~dist, data=.) %>% summary()
+
+parkruns %>% mutate(out=match=="Perfect") %>% glm(out~jpage, data=.) %>% summary()
+parkruns %>% mutate(out=match!="Different") %>% glm(out~jpage, data=.) %>% summary()
 
 
 parkruns_more=merge(parkruns5k %>% dplyr::select(-long) ,
@@ -89,3 +99,4 @@ mutate(euclid=(lon.x-lon.y)^2+(lat.x-lat.y)^2) %>%
   arrange(-dist) 
 # filter(dist<1000) %>% 
 
+startdates=read.csv("Data/jpstartdates.csv") %>% janitor::clean_names()
