@@ -55,3 +55,37 @@ write.csv(parkruns, "Data/jp-pr-distance.csv")
 
 parkruns %>% mutate(out=match=="Perfect") %>% glm(out~dist, data=.) %>% summary()
 parkruns %>% mutate(out=match!="Different") %>% glm(out~dist, data=.) %>% summary()
+
+
+parkruns_more=merge(parkruns5k %>% dplyr::select(-long) ,
+                    parkruns2k%>% dplyr::select(-long) %>% rename("shortjunior"="short"), by="foo") %>% 
+  mutate(rn=row_number()) %>% 
+  mutate(euclid=(lon.x-lon.y)^2+(lat.x-lat.y)^2) %>% 
+  slice_min(euclid, n=1, by=short) %>%
+  rowwise() %>% 
+  mutate(dist=distm(cbind(lon.x,lat.x), cbind(lon.y, lat.y), fun = distHaversine)) %>% 
+  select(-euclid, -lat.x,-lon.x, -lat.y, -lon.y, -foo, -rn) %>% 
+  arrange(-dist) %>% 
+  # filter(dist<1000) %>% 
+  mutate(match=case_when(gsub(" juniors", "",shortjunior)==short~"Perfect",
+                         stringr::word(short)==stringr::word(shortjunior)~"Partial",
+                         T~"Different")) %>% 
+  filter(match=="Perfect")
+
+
+
+parkruns_evenmore=merge(parkruns5k %>% dplyr::select(-long) ,
+                        parkruns2k%>% dplyr::select(-long) %>% rename("shortjunior"="short"), by="foo") %>% 
+  mutate(rn=row_number()) %>% 
+  mutate(match=case_when(gsub(" juniors", "",shortjunior)==short~"Perfect",
+                         stringr::word(short)==stringr::word(shortjunior)~"Partial",
+                         T~"Different")) %>% 
+  filter(match=="Perfect") %>% 
+mutate(euclid=(lon.x-lon.y)^2+(lat.x-lat.y)^2) %>% 
+  # slice_min(euclid, n=1, by=short) %>%
+  rowwise() %>% 
+  mutate(dist=distm(cbind(lon.x,lat.x), cbind(lon.y, lat.y), fun = distHaversine)) %>% 
+  select(-euclid, -lat.x,-lon.x, -lat.y, -lon.y, -foo, -rn) %>% 
+  arrange(-dist) 
+# filter(dist<1000) %>% 
+
