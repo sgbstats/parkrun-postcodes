@@ -19,6 +19,7 @@ nevents=length(parkrunsall$events$features)
 
 short=character(nevents)
 long=character(nevents)
+location=character(nevents)
 countrycode=numeric(nevents)
 coords=matrix(0,ncol=2, nrow=nevents)
 
@@ -28,11 +29,12 @@ for(i in 1:nevents)
   long[i]=parkrunsall$events$features[[i]]$properties$EventLongName
   countrycode[i]=parkrunsall$events$features[[i]]$properties$countrycode
   coords[i,]=parkrunsall$events$features[[i]]$geometry$coordinates
+  location[i]=parkrunsall$events$features[[i]]$properties$EventLocation
 }
 
 
 
-parkrunsuk=cbind.data.frame(short,long,countrycode, coords) %>% 
+parkrunsuk=cbind.data.frame(short,long,countrycode, coords, location) %>% 
   rename("lat"="2",
          "lon"="1") %>% 
   filter(countrycode==97) %>% 
@@ -60,7 +62,7 @@ tic()
 for(i in 1:nrow(parkrunsuk))
 {
   postcode[i]=postcode_finder(lat=parkrunsuk$lat[i], lon=parkrunsuk$lon[i])
-  print(i)
+  cat(paste0(parkrunsuk$short[i], "\n"))
 }
 
 toc()

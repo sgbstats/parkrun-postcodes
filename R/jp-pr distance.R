@@ -72,7 +72,7 @@ parkruns %>% mutate(out=match=="Perfect") %>% glm(out~jpage, data=.) %>% summary
 parkruns %>% mutate(out=match!="Different") %>% glm(out~jpage, data=.) %>% summary()
 
 
-parkruns %>% mutate(out=match=="Perfect") %>% glm(out~jpage+prage, data=.) %>% concordance()
+parkruns %>% mutate(out=match=="Perfect") %>% glm(out~jpage+prage+I(dist/1000), data=.) 
 
 parkruns_more=merge(parkruns5k %>% dplyr::select(-long) ,
                     parkruns2k%>% dplyr::select(-long) %>% rename("shortjunior"="short"), by="foo") %>% 
@@ -89,6 +89,7 @@ parkruns_more=merge(parkruns5k %>% dplyr::select(-long) ,
                          T~"Different")) %>% 
   filter(match=="Perfect")
 
+age=parkruns %>% filter(jpage>prage)
 
 
 parkruns_evenmore=merge(parkruns5k %>% dplyr::select(-long) ,
@@ -98,12 +99,10 @@ parkruns_evenmore=merge(parkruns5k %>% dplyr::select(-long) ,
                          stringr::word(short)==stringr::word(shortjunior)~"Partial",
                          T~"Different")) %>% 
   filter(match=="Perfect") %>% 
-mutate(euclid=(lon.x-lon.y)^2+(lat.x-lat.y)^2) %>% 
-  # slice_min(euclid, n=1, by=short) %>%
+  mutate(euclid=(lon.x-lon.y)^2+(lat.x-lat.y)^2) %>% 
   rowwise() %>% 
   mutate(dist=distm(cbind(lon.x,lat.x), cbind(lon.y, lat.y), fun = distHaversine)) %>% 
   select(-euclid, -lat.x,-lon.x, -lat.y, -lon.y, -foo, -rn) %>% 
   arrange(-dist) 
-# filter(dist<1000) %>% 
 
-startdates=read.csv("Data/jpstartdates.csv") %>% janitor::clean_names()
+
