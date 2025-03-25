@@ -62,7 +62,7 @@ for(i in 1:nrow(parkruns))
 toc()
 
 parkrun_alt=cbind.data.frame(parkruns, alt)
-write.csv(parkrun_alt,"Data/parkrun_uk_altitude.csv")
+write.csv(parkrun_alt,"Data/parkrun_uk_altitude.csv", row.names = F)
 
 
 parkruns_foreign=cbind.data.frame(short,long,countrycode, coords) %>% 

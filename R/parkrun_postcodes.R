@@ -148,6 +148,6 @@ parkrun_postcodes=rbind.data.frame(parkrunsuk_postcodes %>% mutate(open=T, overs
   mutate(lat=as.numeric(lat),
          lon=as.numeric(lon))
 
-write.csv(parkrun_postcodes, "Data/parkrun_postcodes.csv")
+write.csv(parkrun_postcodes, "Data/parkrun_postcodes.csv", row.names = F)
 save(parkrun_postcodes, file="Data/parkrun_postcodes.RDa")
 tictoc::toc()
