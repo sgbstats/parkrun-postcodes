@@ -7,7 +7,7 @@ library(tictoc)
 library(googlesheets4)
 gs4_auth(
   cache = ".secrets",
-  email = "sebastiangbate@gmail.com",
+  email = gargle::gargle_oauth_email(),
   scopes = "https://www.googleapis.com/auth/spreadsheets.readonly"
 )
 
@@ -62,6 +62,7 @@ tic()
 for(i in 1:nrow(parkrunsuk))
 {
   postcode[i]=postcode_finder(lat=parkrunsuk$lat[i], lon=parkrunsuk$lon[i])
+  # Sys.sleep(1)
   cat(paste0(parkrunsuk$short[i], "\n"))
 }
 
