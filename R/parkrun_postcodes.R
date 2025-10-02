@@ -2,14 +2,16 @@ library(XML)
 library(tidyverse)
 library(RCurl)
 library(RJSONIO)
+library(httr)
+library(rvest)
 library(tictoc)
 `%notin%`=Negate(`%in%`)
 library(googlesheets4)
-gs4_auth(
-  cache = ".secrets",
-  email = gargle::gargle_oauth_email(),
-  scopes = "https://www.googleapis.com/auth/spreadsheets.readonly"
-)
+# gs4_auth(
+#   cache = ".secrets",
+#   email = gargle::gargle_oauth_email(),
+#   scopes = "https://www.googleapis.com/auth/spreadsheets.readonly"
+# )
 
 tictoc::tic()
 parkrunsall=fromJSON("https://images.parkrun.com/events.json")
@@ -21,10 +23,12 @@ short=character(nevents)
 long=character(nevents)
 location=character(nevents)
 countrycode=numeric(nevents)
+name=numeric(nevents)
 coords=matrix(0,ncol=2, nrow=nevents)
 
 for(i in 1:nevents)
 {
+  name[i]=parkrunsall$events$features[[i]]$properties$eventname
   short[i]=parkrunsall$events$features[[i]]$properties$EventShortName
   long[i]=parkrunsall$events$features[[i]]$properties$EventLongName
   countrycode[i]=parkrunsall$events$features[[i]]$properties$countrycode
@@ -67,11 +71,26 @@ for(i in 1:nrow(parkrunsuk))
 }
 
 toc()
+url="https://en.wikipedia.org/wiki/List_of_postcode_areas_in_the_United_Kingdom"
+headers=c(`User-Agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+          `Accept` = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+          `Accept-Language` = "en-US,en;q=0.9",
+          `Connection` = "keep-alive")
 
-areaslist=readHTMLTable(getURL("https://en.wikipedia.org/wiki/List_of_postcode_areas_in_the_United_Kingdom"))[1]$`NULL`[-1,] %>% 
-  select(V1, V2) %>% 
-  rename(area=V1,
-         areaname=V2) %>% 
+response=GET(url,
+             add_headers(.headers = headers),
+             timeout(15))
+
+html <- content(response, as = "text", encoding = "UTF-8") %>% read_html()
+tables <- html %>% html_elements("table")
+
+
+
+
+areaslist=tables[[1]]%>% html_table() %>% 
+  dplyr::select(c(1,2)) %>% 
+  rename(area=1,
+         areaname=2) %>% 
   mutate(areaname=stringr::str_replace_all(areaname, "\\[[0-9]\\]", ""))
 
 parkrunsuk_postcodes=cbind.data.frame(parkrunsuk, postcode) %>% 
@@ -144,7 +163,7 @@ parkrun_postcodes=rbind.data.frame(parkrunsuk_postcodes %>% mutate(open=T, overs
                                    parkruns_closed_postcodes %>% mutate(open=F, overseas=F),
                                    parkrunscd %>% mutate(open=T, overseas=T),
                                    bastion %>% mutate(open=F, overseas=T)
-                                   ) %>% 
+) %>% 
   mutate(lat=as.numeric(lat),
          lon=as.numeric(lon))
 

@@ -1,0 +1,31 @@
+library(tibble)
+
+countries=tribble(
+  ~country,            ~code, ~url,
+  "Australia",           3,   "https://www.parkrun.com.au",
+  "Austria",             6,   "https://www.parkrun.at",
+  "Belgium",            12,   "https://www.parkrun.be",
+  "Brazil",             22,   "https://www.parkrun.com.br",
+  "Canada",             10,   "https://www.parkrun.ca",
+  "Denmark",            14,   "https://www.parkrun.dk",
+  "Finland",            24,   "https://www.parkrun.fi",
+  "France",             18,   "https://www.parkrun.fr",
+  "Germany",            16,   "https://www.parkrun.de",
+  "Hong Kong",           8,   "https://www.parkrun.hk",
+  "Ireland",            15,   "https://www.parkrun.ie",
+  "Italy",              20,   "https://www.parkrun.it",
+  "Japan",              26,   "https://www.parkrun.jp",
+  "Malaysia",           28,   "https://www.parkrun.com.my",
+  "Netherlands",        30,   "https://www.parkrun.nl",
+  "New Zealand",        34,   "https://www.parkrun.co.nz",
+  "Norway",             32,   "https://www.parkrun.no",
+  "Poland",             36,   "https://www.parkrun.pl",
+  "Portugal",           38,   "https://www.parkrun.pt",
+  "Singapore",          40,   "https://www.parkrun.sg",
+  "South Africa",        4,   "https://www.parkrun.co.za",
+  "Spain",              44,   "https://www.parkrun.es",
+  "Sweden",             42,   "https://www.parkrun.se",
+  "Switzerland",        46,   "https://www.parkrun.ch",
+  "UK",                 97,   "https://www.parkrun.org.uk",
+  "USA",                11,   "https://www.parkrun.us"
+)

@@ -10,13 +10,14 @@
 "Albert","Albert parkrun, Middlesbrough","TS1 3NL","TS","Cleveland","TS1",54.564972,-1.231788,TRUE,FALSE
 "Aldenham","Aldenham parkrun","WD6 3AT","WD","Watford","WD6",51.647953,-0.316507,TRUE,FALSE
 "Alderford Lake","Alderford Lake parkrun","SY13 2AA","SY","Shrewsbury","SY13",52.953181,-2.675436,TRUE,FALSE
-"Alderley Park","Alderley Park parkrun","SK10 4TF","SK","Stockport","SK10",53.2793,-2.231854,TRUE,FALSE
+"Alderley Park","Alderley Park parkrun","SK10 4TG","SK","Stockport","SK10",53.2793,-2.231854,TRUE,FALSE
 "Alexandra","Alexandra parkrun, Moss Side","M16 8PJ","M","Manchester","M16",53.450142,-2.248827,TRUE,FALSE
 "Alice Holt","Alice Holt parkrun","GU10 4LS","GU","Guildford","GU10",51.16858,-0.836903,TRUE,FALSE
 "Ally Pally","Ally Pally parkrun","N22 7AX","N","North London","N22",51.595936,-0.12233,TRUE,FALSE
 "Alness","Alness parkrun","IV17 0QW","IV","Inverness","IV17",57.694306,-4.256669,TRUE,FALSE
 "Alton Water","Alton Water parkrun","IP9 2RZ","IP","Ipswich","IP9",51.974806,1.134021,TRUE,FALSE
 "Alvaston","Alvaston parkrun","DE24 1AL","DE","Derby","DE24",52.906173,-1.440173,TRUE,FALSE
+"Anagach Woods","Anagach Woods parkrun","PH26 3JL","PH","Perth","PH26",57.327939,-3.602646,TRUE,FALSE
 "Ancholme Valley Way","Ancholme Valley Way parkrun","DN20 8AT","DN","Doncaster","DN20",53.553676,-0.496441,TRUE,FALSE
 "Andover","Andover parkrun","SP10 4AA","SP","Salisbury","SP10",51.221092,-1.512766,TRUE,FALSE
 "Antrim","Antrim parkrun","BT41 4DQ","BT","Belfast","BT41",54.717078,-6.238818,TRUE,FALSE
@@ -61,6 +62,7 @@
 "Belfast Victoria","Belfast Victoria parkrun","BT4 1QS","BT","Belfast","BT4",54.608785,-5.881573,TRUE,FALSE
 "Belton House","Belton House parkrun","NG32 2LS","NG","Nottingham","NG32",52.942743,-0.620021,TRUE,FALSE
 "Belvoir Castle","Belvoir Castle parkrun","NG32 1PA","NG","Nottingham","NG32",52.894882,-0.786835,TRUE,FALSE
+"Belvoir Forest","Belvoir Forest parkrun","BT8 7PJ","BT","Belfast","BT8",54.552815,-5.936382,TRUE,FALSE
 "Bens Yard, Ely","Bens Yard parkrun, Ely","CB7 5TR","CB","Cambridge","CB7",52.375707,0.291723,TRUE,FALSE
 "Berkeley Green","Berkeley Green parkrun","GL13 9FB","GL","Gloucester","GL13",51.690962,-2.497513,TRUE,FALSE
 "Bestwood Village","Bestwood Village parkrun","NG6 8ZA","NG","Nottingham","NG6",53.022132,-1.171188,TRUE,FALSE
@@ -101,9 +103,10 @@
 "Brighton & Hove","Brighton & Hove parkrun","BN3 7PY","BN","Brighton","BN3",50.84214,-0.172498,TRUE,FALSE
 "Brixworth Country","Brixworth Country parkrun","NN6 9DG","NN","Northampton","NN6",52.318576,-0.895675,TRUE,FALSE
 "Broadwater","Broadwater parkrun","GU7 3JU","GU","Guildford","GU7",51.197911,-0.598312,TRUE,FALSE
-"Brockenhurst","Brockenhurst parkrun","BH25 5TZ","BH","Bournemouth","BH25",50.808103,-1.642492,TRUE,FALSE
+"Brockenhurst","Brockenhurst parkrun","BH25 5TZ","BH","Bournemouth","BH25",50.808363,-1.642374,TRUE,FALSE
 "Brockwell","Brockwell parkrun, Herne Hill","SE24 0EH","SE","South East London","SE24",51.452538,-0.105464,TRUE,FALSE
 "Bromley","Bromley parkrun","BR2 9EQ","BR","Bromley","BR2",51.386539,0.022874,TRUE,FALSE
+"Brook Leys","Brook Leys parkrun","CB3 1AU","CB","Cambridge","CB3",52.218625,0.082402,TRUE,FALSE
 "Brooklands","Brooklands parkrun","KT13 0YP","KT","Kingston upon Thames","KT13",51.346969,-0.471408,TRUE,FALSE
 "Brueton","Brueton parkrun","B91 3HW","B","Birmingham","B91",52.406754,-1.764593,TRUE,FALSE
 "Brundall","Brundall parkrun","NR13 5RF","NR","Norwich","NR13",52.624133,1.417369,TRUE,FALSE
@@ -183,11 +186,11 @@
 "Concord","Concord parkrun, Sheffield","S5 6AF","S","Sheffield","S5",53.424007,-1.441612,TRUE,FALSE
 "Congleton","Congleton parkrun","CW12 4AW","CW","Crewe","CW12",53.160781,-2.229795,TRUE,FALSE
 "Conkers","Conkers parkrun","DE12 6BA","DE","Derby","DE12",52.739475,-1.543021,TRUE,FALSE
-"Conwy","Conwy parkrun","LL31 9XZ","LL","Llandudno","LL31",53.279388,-3.808966,TRUE,FALSE
+"Conwy","Conwy parkrun","LL31 9PN","LL","Llandudno","LL31",53.279388,-3.808966,TRUE,FALSE
 "Conyngham Hall","Conyngham Hall parkrun","HG5 9AY","HG","Harrogate","HG5",54.011758,-1.479507,TRUE,FALSE
 "Corby","Corby parkrun","NN17 1HA","NN","Northampton","NN17",52.493879,-0.691774,TRUE,FALSE
 "Coronation Park","Coronation Park parkrun","DE11 0AF","DE","Derby","DE11",52.773488,-1.586547,TRUE,FALSE
-"Cosmeston Lakes","Cosmeston Lakes parkrun","CF64 5FB","CF","Cardiff","CF64",51.418047,-3.185615,TRUE,FALSE
+"Cosmeston Lakes","Cosmeston Lakes parkrun","CF64 5UY","CF","Cardiff","CF64",51.418047,-3.185615,TRUE,FALSE
 "Cotsford Fields","Cotsford Fields parkrun","SR8 4HN","SR","Sunderland","SR8",54.759499,-1.30077,TRUE,FALSE
 "Coventry","Coventry parkrun","CV3 6GJ","CV","Coventry","CV3",52.39172,-1.524026,TRUE,FALSE
 "Cranbrook Country Park","Cranbrook Country Park parkrun","EX5 7BA","EX","Exeter","EX5",50.750746,-3.417858,TRUE,FALSE
@@ -204,7 +207,7 @@
 "Crystal Palace","Crystal Palace parkrun","SE19 2BB","SE","South East London","SE19",51.419846,-0.065703,TRUE,FALSE
 "Cuningar Loop","Cuningar Loop parkrun","G40 4TH","G","Glasgow","G40",55.84069,-4.201428,TRUE,FALSE
 "Cusworth Hall","Cusworth Hall parkrun","DN5 7TU","DN","Doncaster","DN5",53.529479,-1.177617,TRUE,FALSE
-"Cwmbran","Cwmbran parkrun","NP44 2JJ","NP","Newport","NP44",51.656234,-3.013498,TRUE,FALSE
+"Cwmbran","Cwmbran parkrun","NP44 3GE","NP","Newport","NP44",51.640709,-3.007679,TRUE,FALSE
 "Cycle Route 43, Ystalyfera","Cycle Route 43 parkrun, Ystalyfera","SA9 2DE","SA","Swansea","SA9",51.755941,-3.789728,TRUE,FALSE
 "Cyclopark","Cyclopark parkrun","DA11 8PH","DA","Dartford","DA11",51.419922,0.352561,TRUE,FALSE
 "Dalby Forest","Dalby Forest parkrun","YO18 7LT","YO","York","YO18",54.273821,-0.686599,TRUE,FALSE
@@ -239,6 +242,7 @@
 "Durlston Country Park","Durlston Country Park parkrun","BH19 2JL","BH","Bournemouth","BH19",50.595211,-1.954023,TRUE,FALSE
 "East Brighton","East Brighton parkrun","BN2 5UA","BN","Brighton","BN2",50.818691,-0.099373,TRUE,FALSE
 "East Grinstead","East Grinstead parkrun","RH19 3YW","RH","Redhill","RH19",51.129008,0.001373,TRUE,FALSE
+"East Holmes Field","East Holmes Field parkrun","LS29 0AF","LS","Leeds","LS29",53.928537,-1.822741,TRUE,FALSE
 "East Park","East Park parkrun","WV2 2JJ","WV","Wolverhampton","WV2",52.579042,-2.101975,TRUE,FALSE
 "Eastbourne","Eastbourne parkrun","BN23 8DX","BN","Brighton","BN23",50.806248,0.290451,TRUE,FALSE
 "Eastleigh","Eastleigh parkrun","SO50 9YX","SO","Southampton","SO50",50.971433,-1.374032,TRUE,FALSE
@@ -263,7 +267,7 @@
 "Exmouth","Exmouth parkrun","EX8 2AZ","EX","Exeter","EX8",50.614697,-3.412392,TRUE,FALSE
 "Falkirk","Falkirk parkrun","FK1 1YR","FK","Falkirk","FK1",55.99543,-3.766712,TRUE,FALSE
 "Falls","Falls parkrun, Belfast","BT11 8AD","BT","Belfast","BT11",54.586363,-5.978879,TRUE,FALSE
-"Fareham","Fareham parkrun","PO16 8UJ","PO","Portsmouth","PO16",50.848448,-1.167385,TRUE,FALSE
+"Fareham","Fareham parkrun","PO16 8UB","PO","Portsmouth","PO16",50.848448,-1.167385,TRUE,FALSE
 "Faskally Forest","Faskally Forest parkrun","PH16 5NF","PH","Perth","PH16",56.7118,-3.767296,TRUE,FALSE
 "FeldyRoo Fitness Trail","FeldyRoo Fitness Trail parkrun","PH15 2FG","PH","Perth","PH15",56.622075,-3.875777,TRUE,FALSE
 "Felixstowe","Felixstowe parkrun","IP11 2AE","IP","Ipswich","IP11",51.957778,1.345741,TRUE,FALSE
@@ -273,13 +277,14 @@
 "Fire Service College","Fire Service College parkrun","GL56 0RH","GL","Gloucester","GL56",51.990688,-1.675487,TRUE,FALSE
 "Fitzmaurice Park","Fitzmaurice Park parkrun","NR7 0UL","NR","Norwich","NR7",52.638196,1.36115,TRUE,FALSE
 "Five Arches","Five Arches parkrun","BA3 3RL","BA","Bath","BA3",51.292354,-2.452787,TRUE,FALSE
-"Flatts Lane","Flatts Lane parkrun","TS6 0NN","TS","Cleveland","TS6",54.543872,-1.151741,TRUE,FALSE
+"Flatts Lane","Flatts Lane parkrun","TS6 0PX","TS","Cleveland","TS6",54.543872,-1.151741,TRUE,FALSE
 "Fleetwood Promenade","Fleetwood Promenade parkrun","FY7 6HE","FY","Blackpool","FY7",53.927366,-3.016919,TRUE,FALSE
 "Flegg High","Flegg High parkrun","NR29 4QE","NR","Norwich","NR29",52.713022,1.640492,TRUE,FALSE
 "Fletcher Moss","Fletcher Moss parkrun","M20 2RQ","M","Manchester","M20",53.40999,-2.23551,TRUE,FALSE
 "Folkestone","Folkestone parkrun","CT20 2DZ","CT","Canterbury","CT20",51.075729,1.172753,TRUE,FALSE
 "Foots Cray Meadows","Foots Cray Meadows parkrun","DA14 4PU","DA","Dartford","DA14",51.432103,0.133269,TRUE,FALSE
 "Ford","Ford parkrun","LA12 7FT","LA","Lancaster","LA12",54.198427,-3.088135,TRUE,FALSE
+"Fordingbridge Recreation Ground","Fordingbridge Recreation Ground parkrun","SP6 1AN","SP","Salisbury","SP6",50.925328,-1.789641,TRUE,FALSE
 "Forest Rec","Forest Rec parkrun","NG1 4HH","NG","Nottingham","NG1",52.965352,-1.159766,TRUE,FALSE
 "Forest of Dean","Forest of Dean parkrun","GL16 7JU","GL","Gloucester","GL16",51.808701,-2.605219,TRUE,FALSE
 "Forfar Loch","Forfar Loch parkrun","DD8 1RL","DD","Dundee","DD8",56.642663,-2.908213,TRUE,FALSE
@@ -317,7 +322,7 @@
 "Greendale Farm Shop","Greendale Farm Shop parkrun","EX5 2JU","EX","Exeter","EX5",50.703157,-3.398836,TRUE,FALSE
 "Greenfield Valley","Greenfield Valley parkrun","CH8 7TJ","CH","Chester","CH8",53.275044,-3.220992,TRUE,FALSE
 "Greenock","Greenock parkrun","PA16 7XH","PA","Paisley","PA16",55.956525,-4.767348,TRUE,FALSE
-"Groe","Groe parkrun","LD2 3BG","LD","Llandrindod Wells","LD2",52.150418,-3.403113,TRUE,FALSE
+"Groe","Groe parkrun","LD2 3BL","LD","Llandrindod Wells","LD2",52.150418,-3.403113,TRUE,FALSE
 "Grove Fields","Grove Fields parkrun","OX12 9NS","OX","Oxford","OX12",51.600059,-1.425256,TRUE,FALSE
 "Grovelands","Grovelands parkrun, Enfield","N14 6QY","N","North London","N14",51.633076,-0.113769,TRUE,FALSE
 "Guildford","Guildford parkrun","GU1 1UP","GU","Guildford","GU1",51.247383,-0.562062,TRUE,FALSE
@@ -344,19 +349,20 @@
 "Harwich","Harwich parkrun","CO12 3LG","CO","Colchester","CO12",51.938035,1.284809,TRUE,FALSE
 "Hastings","Hastings parkrun","TN38 0AG","TN","Tunbridge Wells","TN38",50.850291,0.539739,TRUE,FALSE
 "Hastings High School","Hastings High School parkrun","LE10 2QE","LE","Leicester","LE10",52.53526,-1.356127,TRUE,FALSE
+"Haughmond Hill","Haughmond Hill parkrun","SY4 4FH","SY","Shrewsbury","SY4",52.7274,-2.674389,TRUE,FALSE
 "Havant","Havant parkrun","PO9 5HD","PO","Portsmouth","PO9",50.875771,-0.975565,TRUE,FALSE
 "Haverfordwest","Haverfordwest parkrun","SA61 1DW","SA","Swansea","SA61",51.797163,-4.992836,TRUE,FALSE
 "Haverhill","Haverhill parkrun","CB9 9QU","CB","Cambridge","CB9",52.076737,0.422212,TRUE,FALSE
-"Hay Lodge","Hay Lodge parkrun","EH45 8JG","EH","Edinburgh","EH45",55.651659,-3.199586,TRUE,FALSE
+"Hay Lodge","Hay Lodge parkrun","EH45 8JQ","EH","Edinburgh","EH45",55.651659,-3.199586,TRUE,FALSE
 "Hazelwood","Hazelwood parkrun","TW16 6QU","TW","Twickenham","TW16",51.405783,-0.421045,TRUE,FALSE
 "Hazlehead","Hazlehead parkrun, Aberdeen","AB15 8BJ","AB","Aberdeen","AB15",57.141371,-2.175647,TRUE,FALSE
 "Heartlands","Heartlands parkrun","TR15 3FS","TR","Truro","TR15",50.224177,-5.2715,TRUE,FALSE
-"Heaton Park","Heaton parkrun","M25 2SW","M","Manchester","M25",53.531975,-2.256263,TRUE,FALSE
+"Heaton Park","Heaton parkrun","M25 0DL","M","Manchester","M25",53.531975,-2.256263,TRUE,FALSE
 "Henley Wood, Oswestry","Henley Wood parkrun, Oswestry","SY11 2YG","SY","Shrewsbury","SY11",52.862542,-3.030368,TRUE,FALSE
 "Henley-on-Thames","Henley-on-Thames parkrun","RG9 1RL","RG","Reading","RG9",51.531978,-0.919288,TRUE,FALSE
-"Henlow Bridge Lakes","Henlow Bridge Lakes parkrun","SG15 6XB","SG","Stevenage","SG15",52.030537,-0.268787,TRUE,FALSE
+"Henlow Bridge Lakes","Henlow Bridge Lakes parkrun","SG16 6LN","SG","Stevenage","SG16",52.030537,-0.268787,TRUE,FALSE
 "Hereford","Hereford parkrun","HR4 9UD","HR","Hereford","HR4",52.068892,-2.724152,TRUE,FALSE
-"Heritage Coastal Path, Easington","Heritage Coastal Path parkrun, Easington","SR8 3UX","SR","Sunderland","SR8",54.792693,-1.316448,TRUE,FALSE
+"Heritage Coastal Path, Easington","Heritage Coastal Path parkrun, Easington","SR8 3QW","SR","Sunderland","SR8",54.789466,-1.318742,TRUE,FALSE
 "Herrington Country","Herrington Country parkrun","DH4 7NJ","DH","Durham","DH4",54.876573,-1.476809,TRUE,FALSE
 "Heslington","Heslington parkrun","YO10 5FG","YO","York","YO10",53.949319,-1.01799,TRUE,FALSE
 "Higginson, Marlow","Higginson parkrun, Marlow","SL7 2AJ","SL","Slough","SL7",51.566268,-0.779573,TRUE,FALSE
@@ -367,14 +373,14 @@
 "Hilly Fields","Hilly Fields parkrun","SE4 1LD","SE","South East London","SE4",51.460143,-0.025019,TRUE,FALSE
 "Hoblingwell","Hoblingwell parkrun","BR5 2QE","BR","Bromley","BR5",51.400981,0.098847,TRUE,FALSE
 "Hockley Woods","Hockley Woods parkrun","SS5 4QA","SS","Southend-on-Sea","SS5",51.596133,0.64912,TRUE,FALSE
-"Hogmoor Inclosure","Hogmoor Inclosure parkrun","GU35 9GQ","GU","Guildford","GU35",51.111681,-0.875934,TRUE,FALSE
+"Hogmoor Inclosure","Hogmoor Inclosure parkrun","GU35 9GU","GU","Guildford","GU35",51.111681,-0.875934,TRUE,FALSE
 "Holbrooks","Holbrooks parkrun","CV6 4BY","CV","Coventry","CV6",52.439154,-1.509052,TRUE,FALSE
 "Holkham","Holkham parkrun","NR23 1AB","NR","Norwich","NR23",52.950159,0.801022,TRUE,FALSE
 "Holy Cross College","Holy Cross College parkrun","BT82 9LG","BT","Belfast","BT82",54.815718,-7.477408,TRUE,FALSE
 "Holyrood","Holyrood parkrun","EH8 8JA","EH","Edinburgh","EH8",55.952167,-3.162844,TRUE,FALSE
 "Homewood","Homewood parkrun","KT16 0NT","KT","Kingston upon Thames","KT16",51.366808,-0.539078,TRUE,FALSE
 "Horsham","Horsham parkrun","RH12 1BA","RH","Redhill","RH12",51.066497,-0.327823,TRUE,FALSE
-"Horspath","Horspath parkrun","OX4 2RL","OX","Oxford","OX4",51.737281,-1.188165,TRUE,FALSE
+"Horspath","Horspath parkrun","OX4 2RR","OX","Oxford","OX4",51.737281,-1.188165,TRUE,FALSE
 "Horton Park","Horton Park parkrun","BD7 3BW","BD","Bradford","BD7",53.782455,-1.77538,TRUE,FALSE
 "Houghton Hall","Houghton Hall parkrun","LU5 5FU","LU","Luton","LU5",51.90155,-0.510046,TRUE,FALSE
 "Hove Promenade","Hove Promenade parkrun","BN3 2FR","BN","Brighton","BN3",50.823391,-0.166594,TRUE,FALSE
@@ -402,7 +408,7 @@
 "Kings Lynn","Kings Lynn parkrun","PE30 2QS","PE","Peterborough","PE30",52.752762,0.407446,TRUE,FALSE
 "King George V Playing Field","King George V Playing Field parkrun, Cheltenham","GL51 7NR","GL","Gloucester","GL51",51.901883,-2.110018,TRUE,FALSE
 "Kingdom","Kingdom parkrun","TN11 8DU","TN","Tunbridge Wells","TN11",51.162408,0.162768,TRUE,FALSE
-"Kingsbury Water","Kingsbury Water parkrun","B76 0DY","B","Birmingham","B76",52.561983,-1.698718,TRUE,FALSE
+"Kingsbury Water","Kingsbury Water parkrun","B76 0EA","B","Birmingham","B76",52.561983,-1.698718,TRUE,FALSE
 "Kingston","Kingston parkrun","KT2 5BH","KT","Kingston upon Thames","KT2",51.426567,-0.309516,TRUE,FALSE
 "Kingsway","Kingsway parkrun, Gloucester","GL2 2AZ","GL","Gloucester","GL2",51.821487,-2.272804,TRUE,FALSE
 "Kirkcaldy","Kirkcaldy parkrun","KY1 1PN","KY","Kirkcaldy","KY1",56.104087,-3.169549,TRUE,FALSE
@@ -445,6 +451,7 @@
 "Long Eaton","Long Eaton parkrun","NG10 3NP","NG","Nottingham","NG10",52.895155,-1.285853,TRUE,FALSE
 "Longrun Meadow","Longrun Meadow parkrun","TA1 1NW","TA","Taunton","TA1",51.018755,-3.114989,TRUE,FALSE
 "Lordship Recreation Ground","Lordship Recreation Ground parkrun","N17 6BQ","N","North London","N17",51.594341,-0.086951,TRUE,FALSE
+"Lough Head","Lough Head parkrun","BT92 0GG","BT","Belfast","BT92",54.247811,-7.453552,TRUE,FALSE
 "Loughmacrory","Loughmacrory parkrun","BT79 9NE","BT","Belfast","BT79",54.627906,-7.106576,TRUE,FALSE
 "Lowestoft","Lowestoft parkrun","NR33 0QG","NR","Norwich","NR33",52.468286,1.747338,TRUE,FALSE
 "Ludlow","Ludlow parkrun","SY8 2HF","SY","Shrewsbury","SY8",52.353284,-2.773078,TRUE,FALSE
@@ -479,7 +486,7 @@
 "Marshall Drive","Marshall Drive parkrun, Brotton","TS12 2RQ","TS","Cleveland","TS12",54.574096,-0.947956,TRUE,FALSE
 "Maryport Prom","Maryport Prom parkrun","CA15 6AX","CA","Carlisle","CA15",54.7171,-3.50107,TRUE,FALSE
 "Meadowmill","Meadowmill parkrun","EH32 9EY","EH","Edinburgh","EH32",55.954249,-2.966242,TRUE,FALSE
-"Medina I.O.W.","Medina I.O.W. parkrun","PO33 1NQ","PO","Portsmouth","PO33",50.725836,-1.143086,TRUE,FALSE
+"Medina I.O.W.","Medina I.O.W. parkrun","PO30 2PT","PO","Portsmouth","PO30",50.713378,-1.285679,TRUE,FALSE
 "Melksham","Melksham parkrun","SN12 7ED","SN","Swindon","SN12",51.377226,-2.136235,TRUE,FALSE
 "Melton Mowbray","Melton Mowbray parkrun","LE13 1HP","LE","Leicester","LE13",52.780002,-0.879068,TRUE,FALSE
 "Meon Valley Trail, Wickham","Meon Valley Trail parkrun, Wickham","PO17 5GW","PO","Portsmouth","PO17",50.904574,-1.182258,TRUE,FALSE
@@ -503,7 +510,7 @@
 "Moors Valley","Moors Valley parkrun","BH24 2ET","BH","Bournemouth","BH24",50.85124,-1.849419,TRUE,FALSE
 "Morden","Morden parkrun","SM4 5QU","SM","Sutton","SM4",51.392759,-0.208072,TRUE,FALSE
 "Morecambe Prom","Morecambe Prom parkrun","LA3 1BS","LA","Lancaster","LA3",54.065082,-2.885102,TRUE,FALSE
-"Mote Park","Mote Park parkrun","ME14 5PP","ME","Rochester","ME14",51.269539,0.541967,TRUE,FALSE
+"Mote Park","Mote Park parkrun","ME15 7SX","ME","Rochester","ME15",51.269539,0.541967,TRUE,FALSE
 "Mount Edgcumbe","Mount Edgcumbe parkrun","PL10 1HT","PL","Plymouth","PL10",50.357664,-4.175493,TRUE,FALSE
 "Mount Stuart","Mount Stuart parkrun","PA20 9LR","PA","Paisley","PA20",55.792888,-5.019453,TRUE,FALSE
 "Muncaster Castle","Muncaster Castle parkrun","CA18 1RD","CA","Carlisle","CA18",54.357004,-3.388267,TRUE,FALSE
@@ -535,7 +542,7 @@
 "Oaklands","Oaklands parkrun","B25 8FD","B","Birmingham","B25",52.466391,-1.818013,TRUE,FALSE
 "Oaklands College","Oaklands College parkrun","AL4 0JA","AL","St Albans","AL4",51.754303,-0.288522,TRUE,FALSE
 "Oakwell Hall","Oakwell Hall parkrun","WF17 9LG","WF","Wakefield","WF17",53.739437,-1.671596,TRUE,FALSE
-"Old Deer Park","Old Deer Park parkrun","TW10 5EZ","TW","Twickenham","TW10",51.464417,-0.306973,TRUE,FALSE
+"Old Deer Park","Old Deer Park parkrun","TW9 1FH","TW","Twickenham","TW9",51.464417,-0.306973,TRUE,FALSE
 "Old Railway Trail, Llangollen","Old Railway Trail parkrun, Llangollen","LL20 8LD","LL","Llandudno","LL20",52.97016,-3.160221,TRUE,FALSE
 "Oldham","Oldham parkrun","OL8 2AU","OL","Oldham","OL8",53.534187,-2.104118,TRUE,FALSE
 "Omagh","Omagh parkrun","BT79 7EG","BT","Belfast","BT79",54.602837,-7.296222,TRUE,FALSE
@@ -577,11 +584,11 @@
 "Pollok","Pollok parkrun, Glasgow","G41 4BE","G","Glasgow","G41",55.82992,-4.307882,TRUE,FALSE
 "Pomphrey Hill","Pomphrey Hill parkrun","BS16 9NF","BS","Bristol","BS16",51.479321,-2.47805,TRUE,FALSE
 "Pont y Bala","Pont y Bala parkrun","LL23 7NN","LL","Llandudno","LL23",52.912396,-3.593199,TRUE,FALSE
-"Pontefract","Pontefract parkrun","WF8 4QD","WF","Wakefield","WF8",53.697922,-1.325197,TRUE,FALSE
+"Pontefract","Pontefract parkrun","WF8 4QS","WF","Wakefield","WF8",53.697922,-1.325197,TRUE,FALSE
 "Pontypool","Pontypool parkrun","NP4 8AN","NP","Newport","NP4",51.699213,-3.028573,TRUE,FALSE
 "Pontypridd","Pontypridd parkrun","CF37 4SU","CF","Cardiff","CF37",51.602009,-3.339028,TRUE,FALSE
 "Poole","Poole parkrun","BH15 2NX","BH","Bournemouth","BH15",50.720348,-1.968876,TRUE,FALSE
-"Poolsbrook","Poolsbrook parkrun","S43 3LS","S","Sheffield","S43",53.259118,-1.348842,TRUE,FALSE
+"Poolsbrook","Poolsbrook parkrun","S43 3WL","S","Sheffield","S43",53.259118,-1.348842,TRUE,FALSE
 "Porthcawl","Porthcawl parkrun","CF36 3YW","CF","Cardiff","CF36",51.476331,-3.705976,TRUE,FALSE
 "Portobello","Portobello parkrun, Edinburgh","EH8 7TE","EH","Edinburgh","EH8",55.950689,-3.122656,TRUE,FALSE
 "Portrush","Portrush parkrun","BT56 8AH","BT","Belfast","BT56",55.204638,-6.648788,TRUE,FALSE
@@ -680,13 +687,13 @@
 "Southampton","Southampton parkrun","SO15 7NN","SO","Southampton","SO15",50.923624,-1.407766,TRUE,FALSE
 "Southend","Southend parkrun","SS3 9FD","SS","Southend-on-Sea","SS3",51.523431,0.787526,TRUE,FALSE
 "Southport","Southport parkrun","PR9 9ND","PR","Preston","PR9",53.656276,-2.985341,TRUE,FALSE
-"Southsea","Southsea parkrun","PO4 9ND","PO","Portsmouth","PO4",50.785432,-1.046276,TRUE,FALSE
+"Southsea","Southsea parkrun","PO5 3PG","PO","Portsmouth","PO5",50.778371,-1.08343,TRUE,FALSE
 "Southwark","Southwark parkrun","SE16 2UA","SE","South East London","SE16",51.494242,-0.053151,TRUE,FALSE
 "Southwick Country Park","Southwick Country parkrun","BA14 9EZ","BA","Bath","BA14",51.306461,-2.234092,TRUE,FALSE
 "Springburn","Springburn parkrun, Glasgow","G21 3AY","G","Glasgow","G21",55.889857,-4.224823,TRUE,FALSE
 "Squerryes Winery","Squerryes Winery parkrun","TN16 1QP","TN","Tunbridge Wells","TN16",51.275986,0.08667,TRUE,FALSE
-"St Albans","St Albans parkrun","AL3 4SN","AL","St Albans","AL3",51.75193,-0.355371,TRUE,FALSE
-"St Andrews","St Andrews parkrun","KY16 8NG","KY","Kirkcaldy","KY16",56.317711,-2.838234,TRUE,FALSE
+"St Albans","St Albans parkrun","AL3 4SL","AL","St Albans","AL3",51.75193,-0.355371,TRUE,FALSE
+"St Andrews","St Andrews parkrun","KY16 8NX","KY","Kirkcaldy","KY16",56.317711,-2.838234,TRUE,FALSE
 "St Helens","St Helens parkrun","WA10 2UB","WA","Warrington","WA10",53.46322,-2.744088,TRUE,FALSE
 "St Marys","St Marys parkrun","DT6 3XB","DT","Dorchester","DT6",50.729456,-2.760744,TRUE,FALSE
 "Stamford Park","Stamford Park parkrun","SK15 1JG","SK","Stockport","SK15",53.490901,-2.066163,TRUE,FALSE
@@ -695,7 +702,6 @@
 "Stockley Country","Stockley Country parkrun","UB7 8BU","UB","Southall","UB7",51.51492,-0.458739,TRUE,FALSE
 "Stonehaven","Stonehaven parkrun","AB39 3BH","AB","Aberdeen","AB39",56.969993,-2.212502,TRUE,FALSE
 "Stonehouse","Stonehouse parkrun","GL10 2DF","GL","Gloucester","GL10",51.752554,-2.287804,TRUE,FALSE
-"Storeys Field","Storeys Field parkrun","CB3 1AA","CB","Cambridge","CB3",52.219098,0.089579,TRUE,FALSE
 "Stormont","Stormont parkrun","BT4 3PJ","BT","Belfast","BT4",54.598318,-5.837749,TRUE,FALSE
 "Stratford Park, Stroud","Stratford Park parkrun, Stroud","GL5 4AQ","GL","Gloucester","GL5",51.74897,-2.225007,TRUE,FALSE
 "Stratford-upon-Avon","Stratford-upon-Avon parkrun","CV37 7LR","CV","Coventry","CV37",52.184998,-1.701445,TRUE,FALSE
@@ -743,7 +749,7 @@
 "Tilgate","Tilgate parkrun","RH10 5PG","RH","Redhill","RH10",51.097,-0.175623,TRUE,FALSE
 "Tollcross","Tollcross parkrun, Glasgow","G32 8TF","G","Glasgow","G32",55.847494,-4.179461,TRUE,FALSE
 "Tonbridge","Tonbridge parkrun","TN9 1HF","TN","Tunbridge Wells","TN9",51.197605,0.270174,TRUE,FALSE
-"Tooting Common","Tooting Common parkrun","SW17 8JT","SW","South West London","SW17",51.433342,-0.14677,TRUE,FALSE
+"Tooting Common","Tooting Common parkrun","SW17 8JU","SW","South West London","SW17",51.433342,-0.14677,TRUE,FALSE
 "Torbay Velopark","Torbay Velopark parkrun","TQ4 5JR","TQ","Torquay","TQ4",50.423441,-3.564297,TRUE,FALSE
 "Torvean","Torvean parkrun","IV3 8JL","IV","Inverness","IV3",57.462669,-4.24886,TRUE,FALSE
 "Town Moor","Town Moor parkrun","NE2 4PZ","NE","Newcastle upon Tyne","NE2",54.988451,-1.617143,TRUE,FALSE
@@ -755,7 +761,7 @@
 "Tyne Green","Tyne Green parkrun","NE46 3HQ","NE","Newcastle upon Tyne","NE46",54.977878,-2.101526,TRUE,FALSE
 "Uckfield","Uckfield parkrun","TN22 3DL","TN","Tunbridge Wells","TN22",50.977857,0.11306,TRUE,FALSE
 "University Parks","University Parks parkrun","OX1 3PL","OX","Oxford","OX1",51.761468,-1.251068,TRUE,FALSE
-"University of Northampton","University of Northampton parkrun","NN1 5GE","NN","Northampton","NN1",52.230017,-0.886741,TRUE,FALSE
+"University of Northampton","University of Northampton parkrun","NN1 5PA","NN","Northampton","NN1",52.230017,-0.886741,TRUE,FALSE
 "University of Stirling","University of Stirling parkrun","FK9 4LP","FK","Falkirk","FK9",56.147968,-3.923762,TRUE,FALSE
 "Upton Court","Upton Court parkrun","SL3 7LT","SL","Slough","SL3",51.49616,-0.577525,TRUE,FALSE
 "Upton House","Upton House parkrun","BH17 7BJ","BH","Bournemouth","BH17",50.734891,-2.013428,TRUE,FALSE
@@ -766,6 +772,7 @@
 "Vicar Water Country Park","Vicar Water Country Park parkrun","NG21 9FQ","NG","Nottingham","NG21",53.158738,-1.120002,TRUE,FALSE
 "Victoria","Victoria parkrun, Glasgow","G14 9NL","G","Glasgow","G14",55.877504,-4.332347,TRUE,FALSE
 "Victoria Dock","Victoria Dock parkrun","E16 1SH","E","East London","E16",51.505363,0.018775,TRUE,FALSE
+"Victoria Park, Newbury","Victoria Park parkrun, Newbury","RG14 1DF","RG","Reading","RG14",51.403431,-1.320524,TRUE,FALSE
 "Vogrie","Vogrie parkrun","EH23 4NU","EH","Edinburgh","EH23",55.856879,-2.995012,TRUE,FALSE
 "Wakefield Thornes","Wakefield Thornes parkrun","WF2 8QZ","WF","Wakefield","WF2",53.672488,-1.509682,TRUE,FALSE
 "Wakehurst","Wakehurst parkrun","RH17 6TN","RH","Redhill","RH17",51.066755,-0.088633,TRUE,FALSE
@@ -868,13 +875,13 @@
 "Prescoed","Prescoed parkrun","NP15 1PS","NP","Newport","NP15",51.685642,-2.94157,FALSE,FALSE
 "Sands Lane","Sands Lane parkrun","HU15 2JH","HU","Hull","HU15",53.769497,-0.63977,FALSE,FALSE
 "Skegness Boating Lake","Skegness Boating Lake parkrun","PE25 3HH","PE","Peterborough","PE25",53.140697,0.345527,FALSE,FALSE
+"Storeys Field","Storeys Field parkrun","CB3 1AA","CB","Cambridge","CB3",52.219098,0.089579,FALSE,FALSE
 "Storthes Hall","Storthes Hall parkrun","HD8 0PR","HD","Huddersfield","HD8",53.607932,-1.722012,FALSE,FALSE
 "Stranmillis College","Stranmillis College parkrun","BT9 5DY","BT","Belfast","BT9",54.572708,-5.938828,FALSE,FALSE
 "Swinfen","Swinfen parkrun","WS14 9QS","WS","Walsall","WS14",52.652544,-1.806587,FALSE,FALSE
-"Tees Barrage","Tees Barrage parkrun","TS18 2QW","TS","Cleveland","TS18",54.564846,-1.287396,FALSE,FALSE
+"Tees Barrage","Tees Barrage parkrun","TS17 6QA","TS","Cleveland","TS17",54.564846,-1.287396,FALSE,FALSE
 "Tring","Tring parkrun","HP23 6AR","HP","Hemel Hempstead","HP23",51.786634,-0.659599,FALSE,FALSE
 "Wayland","Wayland parkrun","IP25 6RL","IP","Ipswich","IP25",52.552523,0.858763,FALSE,FALSE
-"Werrington","Werrington parkrun","ST9 0DX","ST","Stoke-on-Trent","ST9",53.02331,-2.088076,FALSE,FALSE
 "Wolford Wood","Wolford Wood parkrun","GL56 0PE","GL","Gloucester","GL56",51.995091,-1.655677,FALSE,FALSE
 "Wythall","Wythall parkrun","B47 6LZ","B","Birmingham","B47",52.384791,-1.888492,FALSE,FALSE
 "Yeovil Montacute","Yeovil Montacute parkrun","TA15 6XP","TA","Taunton","TA15",50.951485,-2.712979,FALSE,FALSE

@@ -125,15 +125,20 @@ names(col)=unique(all_events$eventname)
 
 
 all_events %>%
-  filter(finishers < 1500, volunteers > 1) %>%
-  mutate(ratio = finishers / volunteers) %>%
+  filter(volunteers > 1) %>%
+  mutate(ratio = volunteers/(finishers/100)) %>%
   ggplot(aes(x = finishers, y = ratio)) +
   geom_smooth(se = FALSE, show.legend = FALSE) +
   theme_minimal() +
   scale_x_continuous(breaks = seq(0, 1000, 100), lim=c(0,1000)) +
-  labs(x = "Finishers", y = "Finishers:Volunteers")
+  scale_y_continuous(lim=c(0,30))+
+  labs(x = "Finishers", y = "Volunteers/100 finishers")
 
 
 all_events %>% filter(finishers<1000) %>% 
   ggplot(aes(x=finishers))+
   geom_density()
+
+x=all_events %>% filter(finishers>=1000) %>% 
+  slice_max(finishers, by="eventname", with_ties = F) %>% 
+  arrange(-finishers)
