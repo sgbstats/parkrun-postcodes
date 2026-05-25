@@ -13,7 +13,7 @@ library(googlesheets4)
 # )
 
 tictoc::tic()
-parkrunsall = fromJSON("https://images.parkrun.com/events.json")
+parkrunsall = RJSONIO::fromJSON("https://images.parkrun.com/events.json")
 
 
 nevents = length(parkrunsall$events$features)
