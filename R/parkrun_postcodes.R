@@ -13,29 +13,29 @@ library(googlesheets4)
 # )
 
 tictoc::tic()
-parkrunsall = RJSONIO::fromJSON("https://images.parkrun.com/events.json")
+parkrunsall <- RJSONIO::fromJSON("https://images.parkrun.com/events.json")
 
 
-nevents = length(parkrunsall$events$features)
+nevents <- length(parkrunsall$events$features)
 
-short = character(nevents)
-long = character(nevents)
-location = character(nevents)
-countrycode = numeric(nevents)
-name = numeric(nevents)
-coords = matrix(0, ncol = 2, nrow = nevents)
+short <- character(nevents)
+long <- character(nevents)
+location <- character(nevents)
+countrycode <- numeric(nevents)
+name <- numeric(nevents)
+coords <- matrix(0, ncol = 2, nrow = nevents)
 
 for (i in 1:nevents) {
-       name[i] = parkrunsall$events$features[[i]]$properties$eventname
-       short[i] = parkrunsall$events$features[[i]]$properties$EventShortName
-       long[i] = parkrunsall$events$features[[i]]$properties$EventLongName
-       countrycode[i] = parkrunsall$events$features[[i]]$properties$countrycode
-       coords[i, ] = parkrunsall$events$features[[i]]$geometry$coordinates
-       location[i] = parkrunsall$events$features[[i]]$properties$EventLocation
+       name[i] <- parkrunsall$events$features[[i]]$properties$eventname
+       short[i] <- parkrunsall$events$features[[i]]$properties$EventShortName
+       long[i] <- parkrunsall$events$features[[i]]$properties$EventLongName
+       countrycode[i] <- parkrunsall$events$features[[i]]$properties$countrycode
+       coords[i, ] <- parkrunsall$events$features[[i]]$geometry$coordinates
+       location[i] <- parkrunsall$events$features[[i]]$properties$EventLocation
 }
 
 
-parkrunsuk = cbind.data.frame(short, long, countrycode, coords, location) |>
+parkrunsuk <- cbind.data.frame(short, long, countrycode, coords, location) |>
        rename("lat" = "2", "lon" = "1") |>
        filter(countrycode == 97) |>
        filter(
@@ -53,8 +53,8 @@ parkrunsuk = cbind.data.frame(short, long, countrycode, coords, location) |>
        arrange(short)
 
 
-postcode_finder = function(lat, lon) {
-       url = paste(
+postcode_finder <- function(lat, lon) {
+       url <- paste(
               "https://findthatpostcode.uk/points/",
               lat,
               ",",
@@ -62,28 +62,28 @@ postcode_finder = function(lat, lon) {
               ".json",
               sep = ""
        )
-       json = RJSONIO::fromJSON(url)
-       postcode = json$data$relationships$nearest_postcode$data[1]
+       json <- RJSONIO::fromJSON(url)
+       postcode <- json$data$relationships$nearest_postcode$data[1]
        return(postcode)
 }
 
 load("Data/postcodes.RDa")
 
-postcode = character(nrow(parkrunsuk))
+postcode <- character(nrow(parkrunsuk))
 
-newparkruns = parkrunsuk |> filter(!short %in% parkrun_postcodes$short)
+newparkruns <- parkrunsuk |> filter(!short %in% parkrun_postcodes$short)
 
 tic()
 for (i in 1:nrow(parkrunsuk)) {
        tryCatch(
               {
-                     postcode[i] = postcode_finder(
+                     postcode[i] <- postcode_finder(
                             lat = parkrunsuk$lat[i],
                             lon = parkrunsuk$lon[i]
                      )
               },
               error = function(e) {
-                     postcode[i] = NA_character_
+                     postcode[i] <- NA_character_
               }
        )
        # Sys.sleep(1)
@@ -91,27 +91,27 @@ for (i in 1:nrow(parkrunsuk)) {
 }
 
 toc()
-url = "https://en.wikipedia.org/wiki/List_of_postcode_areas_in_the_United_Kingdom"
-headers = c(
+url <- "https://en.wikipedia.org/wiki/List_of_postcode_areas_in_the_United_Kingdom"
+headers <- c(
        `User-Agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
        `Accept` = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
        `Accept-Language` = "en-US,en;q=0.9",
        `Connection` = "keep-alive"
 )
 
-response = GET(url, add_headers(.headers = headers), timeout(15))
+response <- GET(url, add_headers(.headers = headers), timeout(15))
 
 html <- content(response, as = "text", encoding = "UTF-8") |> read_html()
 tables <- html |> html_elements("table")
 
 
-areaslist = tables[[1]] |>
+areaslist <- tables[[1]] |>
        html_table() |>
        dplyr::select(c(1, 2)) |>
        rename(area = 1, areaname = 2) |>
        mutate(areaname = stringr::str_replace_all(areaname, "\\[[0-9]\\]", ""))
 
-parkrunsuk_postcodes = cbind.data.frame(parkrunsuk, postcode) |>
+parkrunsuk_postcodes <- cbind.data.frame(parkrunsuk, postcode) |>
        group_by(short) |>
        mutate(
               area = substr(
@@ -138,7 +138,7 @@ parkrunsuk_postcodes = cbind.data.frame(parkrunsuk, postcode) |>
 
 ###
 
-parkrunscd = cbind.data.frame(short, long, countrycode, coords) |>
+parkrunscd <- cbind.data.frame(short, long, countrycode, coords) |>
        rename("lat" = "2", "lon" = "1") |>
        filter(countrycode == 97) |>
        filter(
@@ -169,12 +169,12 @@ parkrunscd = cbind.data.frame(short, long, countrycode, coords) |>
        mutate(sector = NA_character_)
 # write.csv(parkrunscd, "Data/cd_ot_parkruns_postcodes.csv", row.names = F)
 
-closed = googlesheets4::read_sheet(
+closed <- googlesheets4::read_sheet(
        "https://docs.google.com/spreadsheets/d/1f3R2XuHb0QevoGbWaUFGchttf_mr53PtVT1Q3cXn6HE/edit?#gid=0",
        col_names = T
 )
 
-closedlatlong = closed |>
+closedlatlong <- closed |>
        filter(Country == "UK", Region != "Overseas Military Bases") |>
        select(`Short Name`, `Long Name`, Latitude, Longitude) |>
        rename(
@@ -189,7 +189,7 @@ closedlatlong = closed |>
        mutate(postcode = postcode_finder(lat = lat, lon = lon)) |>
        ungroup()
 
-bastion = closed |>
+bastion <- closed |>
        filter(Country == "UK", Region == "Overseas Military Bases") |>
        select(`Short Name`, `Long Name`, Latitude, Longitude) |>
        rename(
@@ -206,7 +206,7 @@ bastion = closed |>
        )
 
 
-parkruns_closed_postcodes = closedlatlong |>
+parkruns_closed_postcodes <- closedlatlong |>
        # rbind.data.frame(closed|> filter(!is.na(postcode))) |>
        group_by(short) |>
        mutate(
@@ -232,7 +232,7 @@ parkruns_closed_postcodes = closedlatlong |>
        ) |>
        arrange(short)
 
-parkrun_postcodes = rbind.data.frame(
+parkrun_postcodes <- rbind.data.frame(
        parkrunsuk_postcodes |> mutate(open = T, overseas = F),
        parkruns_closed_postcodes |> mutate(open = F, overseas = F),
        parkrunscd |> mutate(open = T, overseas = T),
